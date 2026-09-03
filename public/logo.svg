@@ -1,0 +1,52 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="96" stroke="currentColor" stroke-width="1.2"/>
+  <circle cx="100" cy="100" r="84" stroke="currentColor" stroke-width="0.6"/>
+
+  <defs>
+    <path id="fc-top" d="M 22 100 A 78 78 0 0 1 178 100"/>
+    <path id="fc-bot" d="M 26 110 A 78 78 0 0 0 174 110"/>
+  </defs>
+
+  <text fill="currentColor" font-family="Georgia, serif" font-size="10.5" letter-spacing="5" font-weight="400">
+    <textPath href="#fc-top" startOffset="50%" text-anchor="middle">FINE CUP</textPath>
+  </text>
+  <text fill="currentColor" font-family="Georgia, serif" font-size="8.5" letter-spacing="3.5" font-weight="400">
+    <textPath href="#fc-bot" startOffset="50%" text-anchor="middle">NATURAL COFFEE</textPath>
+  </text>
+
+  <!-- Dots left and right -->
+  <circle cx="16" cy="100" r="2.5" fill="currentColor"/>
+  <circle cx="184" cy="100" r="2.5" fill="currentColor"/>
+
+  <!-- Coffee plant stem -->
+  <path d="M100 148 L100 72" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Branches -->
+  <path d="M100 128 Q90 122 78 118" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+  <path d="M100 128 Q110 122 122 118" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+  <path d="M100 112 Q89 106 76 102" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+  <path d="M100 112 Q111 106 124 102" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+  <path d="M100 96 Q91 90 82 87" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none"/>
+  <path d="M100 96 Q109 90 118 87" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none"/>
+
+  <!-- Leaves -->
+  <ellipse cx="72" cy="115" rx="9" ry="4.5" fill="currentColor" transform="rotate(-35 72 115)" opacity="0.85"/>
+  <ellipse cx="128" cy="115" rx="9" ry="4.5" fill="currentColor" transform="rotate(35 128 115)" opacity="0.85"/>
+  <ellipse cx="69" cy="99" rx="8" ry="4" fill="currentColor" transform="rotate(-30 69 99)" opacity="0.85"/>
+  <ellipse cx="131" cy="99" rx="8" ry="4" fill="currentColor" transform="rotate(30 131 99)" opacity="0.85"/>
+  <ellipse cx="78" cy="84" rx="7" ry="3.5" fill="currentColor" transform="rotate(-25 78 84)" opacity="0.85"/>
+  <ellipse cx="122" cy="84" rx="7" ry="3.5" fill="currentColor" transform="rotate(25 122 84)" opacity="0.85"/>
+
+  <!-- Coffee cherries -->
+  <circle cx="78" cy="118" r="4" fill="currentColor"/>
+  <circle cx="122" cy="118" r="4" fill="currentColor"/>
+  <circle cx="74" cy="102" r="3.5" fill="currentColor"/>
+  <circle cx="126" cy="102" r="3.5" fill="currentColor"/>
+  <circle cx="80" cy="87" r="3" fill="currentColor"/>
+  <circle cx="120" cy="87" r="3" fill="currentColor"/>
+
+  <!-- Top cherry cluster -->
+  <circle cx="96" cy="72" r="3.5" fill="currentColor"/>
+  <circle cx="104" cy="72" r="3.5" fill="currentColor"/>
+  <circle cx="100" cy="68" r="3" fill="currentColor"/>
+</svg>
